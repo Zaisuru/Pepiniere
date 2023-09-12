@@ -1,0 +1,249 @@
+
+    body{
+        font-family: 'Roboto Mono', monospace;
+    }
+    h1, h2, h3, h4, h5{
+        color: #49BA45;
+        font-weight: bold;
+    }
+    .btn{
+        background: teal;
+        border: none;
+    }
+    .btn:hover{
+        background: #49BA45;
+    }
+    .navbar-brand{
+        padding: 25px;
+    }
+    .nav-item{
+        padding: 0 45px 0 45px;
+    }
+    .nav-link{
+        font-size: 20px;
+        color: #18814b;
+        font-weight: bold;
+    }
+
+    .nav-link:hover{
+        color: #49BA45;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    .fa-facebook{
+        color: teal;
+    }
+
+    .fa-facebook:hover{
+        color: #49BA45;
+        opacity: 1;
+    }
+
+    .col-presentation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /*background: rgba(73, 186, 69, 0.5);*/
+    }
+     .col-presentation img{
+         width: 70%;
+     }
+
+    .container-presentation{
+        display: flex;
+        width: 100%;
+    }
+
+    .container-presentation-right, .container-presentation-left{
+        width: 50%;
+        /*height: 800px;*/
+    }
+
+    .container-presentation-right{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .presentation-text{
+        margin-top: 55px;
+    }
+
+  /*  .container-presentation-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }*/
+    .container-presentation-left img{
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    .product{
+        text-align: center;
+        margin-top: 150px;
+    }
+    .productRow{
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+    .product-card{
+        margin-top:100px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-card-img{
+        display: flex;
+    }
+    .card{
+        width: 500px;
+        height: 600px;
+        object-fit: cover;
+        border: none;
+    }
+    .card-title{
+        color: teal;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 70%;
+        padding: 15px;
+        object-fit: cover;
+    }
+    .card-body{
+        padding: 15px;
+    }
+    .productCardWithoutImg{
+        width: 150px;
+        height: 200px;
+        padding: 5px;
+    }
+
+    .banner{
+        background: aliceblue;
+        margin-top: 150px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .contact{
+      /*  height: 650px;
+        width: 950px;*/
+        padding: 25px;
+        text-align: center;
+        /*background: rgba(73, 186, 69, 0.5);*/
+    }
+.contactContainer{
+    display: flex;
+    margin: 25px 25px 25px 25px;
+}
+    form{
+        width: 100%;
+        height: 90%;
+        text-align: left;
+    }
+    .contactCol{
+        margin-top: 30px;
+    }
+    .contactButton{
+        text-align: center;
+    }
+    .button{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+    }
+    .adress {
+        /* width: 350px;*/
+        text-align: center;
+        font-weight: bold;
+    }
+        /* CSS partie produit */
+        .productCard{
+            text-align: center;
+            margin-top: 25px;
+        }
+        .productBtn{
+            margin-top: 15px;
+        }
+        .productCard:hover img{
+            opacity: 50%;
+        }
+        .card-body h5{
+            /*margin: 15px 0 25px 0;*/
+        }
+        .card-body p{
+            margin-top: 15px;
+            /*text-align: left;*/
+        }
+        .pageContainerBody{
+            text-align: left;
+        }
+        .pageContainer img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+        .pageContainerBody h1{
+            text-align: center;
+        }
+        .ficheTitle{
+            text-align: center;
+            margin: 25px 0 25px 0;
+        }
+            .ficheTitle h2{
+                color: teal;
+            }
+        .pageBtn{
+            margin-top: 60px;
+            width: 100%;
+        }
+
+    
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .col-presentation{
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+        }
+        .contactContainer{
+            flex-direction: column-reverse;
+        }
+    }
+    @media screen and (max-width: 767px){
+        .navbar{
+            display: flex;
+            justify-content: center;
+        }
+        .contactContainer{
+            flex-direction: column-reverse;
+        }
+    }
+
+
